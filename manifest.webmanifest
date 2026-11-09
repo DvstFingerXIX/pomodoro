@@ -1,0 +1,65 @@
+{
+ "name": "Pomodoro Timer Cube",
+ "short_name": "Pomo Cube",
+ "description": "Pomodoro timer cube with presets, stopwatch, clock, alarms and stats.",
+ "id": "/pomodoro-cube",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "landscape",
+ "background_color": "#0a0b0f",
+ "theme_color": "#0a0b0f",
+ "categories": [
+  "productivity"
+ ],
+ "icons": [
+  {
+   "src": "icon-192.png",
+   "sizes": "192x192",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-512.png",
+   "sizes": "512x512",
+   "type": "image/png"
+  },
+  {
+   "src": "icon-maskable-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "Pomodoro 25/5",
+   "url": "./index.html?start=pomo",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "10 minute timer",
+   "url": "./index.html?start=10",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  },
+  {
+   "name": "Stopwatch",
+   "url": "./index.html?start=sw",
+   "icons": [
+    {
+     "src": "icon-192.png",
+     "sizes": "192x192"
+    }
+   ]
+  }
+ ]
+}
